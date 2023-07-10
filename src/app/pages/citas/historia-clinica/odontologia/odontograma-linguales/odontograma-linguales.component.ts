@@ -95,11 +95,13 @@ export class OdontogramaLingualesComponent implements OnInit {
   convencionesPrimero: any[] = [
     { nombre: 'Sin Clasificar', color: 'Lavender', estado: 1, borde: 'none' },
     { nombre: 'Sano (✓)', color: '#709f51', estado: 16, borde: 'none' },
+    /*
     { nombre: 'Implante (│)', color: '#CC66CC', estado: 2, borde: 'none' },
     { nombre: 'Ausente (▬)', color: 'black', estado: 3, borde: 'none' },
     { nombre: 'Resina', color: '#709f51', estado: 4, borde: 'none' },
     { nombre: 'Resina Desadaptada', color: '#709f51', estado: 6, borde: 'red' },
     { nombre: 'Caries', color: 'red', estado: 5, borde: 'none' },
+    */
   ];
   convencionesSegundo: any[] = [
     { nombre: 'Corona Existente (O)', color: '#5b9bd5', estado: 7, borde: 'none' },
